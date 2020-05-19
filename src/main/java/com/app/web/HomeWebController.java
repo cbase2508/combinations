@@ -25,7 +25,7 @@ public class HomeWebController {
 	private final Logger logger = LoggerFactory.getLogger(HomeWebController.class);
 
 	
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView testView() {
 		logger.debug("Inside home Controller!");
 		System.out.println("In home");
